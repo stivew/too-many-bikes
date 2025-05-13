@@ -1,0 +1,14 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.content-container {
+    background: #e0ced8;
+    padding: 5%;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 70%;
+    height: 70%;
+}
+  
