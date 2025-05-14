@@ -1,15 +1,7 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --light-gray: #f0f0f0;
-    --gray: #aaaaaa;
-    --dark-gray: #505050;
+html {
+    background: black;
 }
 
 .cards-container {
@@ -17,7 +9,7 @@
     background-size: cover;
     height: 100vh;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 50vw 50vw;
     align-items: center;
 }
 
@@ -25,21 +17,22 @@
 
 .card-content {
     z-index: 1;
+    height: 50vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: rgba(0, 0, 0, 0.2);
     transition: background-color 0.25s;
     text-decoration: none;
-    height: 100vh;
     padding: 5%;
+    align-items: center;
     justify-content: center;
 }
 
 .card-content p {
     color: white;
     padding-top: 5%;
-    font-size: 2rem;
+    font-size: 3vh;
+    text-transform: uppercase;
 }
 
 .card-content:hover {
@@ -52,9 +45,9 @@
 }
 
 .background-box {
+    z-index: 0;
     width: 100vw;
     height: 100vh;
     position: absolute;
-    z-index: 0;
     background: rgba(0, 0, 0, 0.7);
 }

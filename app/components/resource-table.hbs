@@ -1,0 +1,33 @@
+<table class="table table-hover table-striped table-dark {{if @isParts "parts-table" "bikes-table"}}">
+    <thead>
+        <tr>
+            {{#if @isParts}}
+                <th>Part Type</th>
+            {{/if}}
+            <th>Year</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Material</th>
+            {{#if @isParts}}
+                <th>Bike</th>
+            {{/if}}
+        </tr>
+    </thead>
+   
+    <tbody>
+        {{#each @model as |item|}}
+            <tr>
+                {{#if @isParts}}
+                    <td>{{item.partType}}</td>
+                {{/if}}
+                <td>{{item.year}}</td>
+                <td>{{item.make}}</td>
+                <td>{{item.model}}</td>
+                <td>{{item.material}}</td>
+                {{#if @isParts}}
+                    <td>{{item.assignedTo}}</td>
+                {{/if}}
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
