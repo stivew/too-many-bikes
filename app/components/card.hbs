@@ -1,7 +1,4 @@
-<div class="border rounded card-content-container">
+<a href={{@route}} class="border rounded card-content">
     <img class="card-image" src={{@imagePath}} alt={{@imageAltText}}>
-
-    <LinkTo @route={{@route}}>
-        {{@linkText}}
-    </LinkTo>
-</div>
+    <p>{{@linkText}}</p>
+</a>
