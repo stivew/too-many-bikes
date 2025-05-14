@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    // color: black;
 }
 
 :root {
@@ -25,28 +24,26 @@
 // Card component contents
 
 .card-content {
+    z-index: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: background-color 0.25s;
     text-decoration: none;
-    height: 40vh;
+    height: 100vh;
     padding: 5%;
-    margin: 5%;
     justify-content: center;
-    transform: scale(1);
-    transition: transform 0.2s;
 }
 
 .card-content p {
-    color: black;
+    color: white;
     padding-top: 5%;
     font-size: 2rem;
 }
 
 .card-content:hover {
-    transform: scale(1.03);
-    background: var(--light-gray);
+    background-color: rgba(0, 0, 0, 0.6);
 }
   
 .card-image {
@@ -59,5 +56,5 @@
     height: 100vh;
     position: absolute;
     z-index: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
 }
