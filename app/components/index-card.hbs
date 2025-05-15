@@ -1,4 +1,10 @@
 <a href={{@route}} class="card-content">
     <img class="card-image" src={{@imagePath}} alt={{@imageAltText}}>
-    <p>{{@displayText}}</p>
+    <p>
+        {{#if @displayText}}
+            {{@displayText}}
+        {{else}}
+            {{@route}}
+        {{/if}}
+    </p>
 </a>
