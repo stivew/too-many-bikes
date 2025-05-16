@@ -12,7 +12,7 @@ html {
 }
 
 .nav-header img {
-    padding: 5px;
+    padding: 5px 10px;
     height: 50px;
 }
 
@@ -27,7 +27,7 @@ html {
 
 // Card component contents
 
-.card-content {
+.index-card-content {
     z-index: 1;
     height: 50vh;
     display: flex;
@@ -40,18 +40,18 @@ html {
     justify-content: center;
 }
 
-.card-content p {
+.index-card-content p {
     color: white;
     padding-top: 5%;
     font-size: 3vh;
     text-transform: uppercase;
 }
 
-.card-content:hover {
+.index-card-content:hover {
     background-color: rgba(0, 0, 0, 0.6);
 }
   
-.card-image {
+.index-card-image {
     width: 10vw;
     height: 10vh;
 }

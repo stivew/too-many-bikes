@@ -18,12 +18,12 @@
         {{#each @model as |item|}}
             <tr>
                 {{#if @isParts}}
-                    <td>{{item.partType}}</td>
+                    <td>{{this.capitalize item.partType}}</td>
                 {{/if}}
                 <td>{{item.year}}</td>
                 <td>{{item.make}}</td>
                 <td>{{item.model}}</td>
-                <td>{{item.material}}</td>
+                <td>{{this.capitalize item.material}}</td>
                 {{#if @isParts}}
                     <td>{{item.assignedTo}}</td>
                 {{/if}}
