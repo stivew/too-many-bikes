@@ -1,33 +1,25 @@
-<table class="table table-hover table-striped table-dark {{if @isParts "parts-table" "bikes-table"}}">
-    <thead>
-        <tr>
-            {{#if @isParts}}
-                <th>Part Type</th>
-            {{/if}}
-            <th>Year</th>
-            <th>Make</th>
-            <th>Model</th>
-            <th>Material</th>
-            {{#if @isParts}}
-                <th>Bike</th>
-            {{/if}}
-        </tr>
-    </thead>
-   
-    <tbody>
-        {{#each @model as |item|}}
-            <tr>
-                {{#if @isParts}}
-                    <td>{{this.capitalize item.partType}}</td>
-                {{/if}}
-                <td>{{item.year}}</td>
-                <td>{{item.make}}</td>
-                <td>{{item.model}}</td>
-                <td>{{this.capitalize item.material}}</td>
-                {{#if @isParts}}
-                    <td>{{item.assignedTo}}</td>
-                {{/if}}
-            </tr>
-        {{/each}}
-    </tbody>
+<table>
+    {{#each @model as |item|}}
+        <tbody>
+            <td>
+                <img class="item-thumbnail-image" src={{if item.imagePath item.imagePath this.defaultImagePath}}>
+            </td>
+
+            <td>
+                <h5 class="item-header">
+                    <b>{{this.getResourceDisplayName item}}</b>
+                </h5>
+
+                <ul>
+                   <ResourceDetails
+                        @item={{item}}
+                        @currentRouteName={{this.router.currentRouteName}}
+                   />
+                </ul>
+            </td>
+            
+        </tbody>
+
+        <hr>
+    {{/each}}
 </table>

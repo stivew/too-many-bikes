@@ -1,0 +1,10 @@
+{{#if (eq @currentRouteName "parts")}}
+    {{#each-in @item.details as |label value|}}
+        <li>{{label}} : {{value}}</li>
+    {{/each-in}}
+
+{{else}}
+    {{#each-in @item.components as |label value|}}
+        <li>{{label}} : {{value}}</li>
+    {{/each-in}}
+{{/if}}

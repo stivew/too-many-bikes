@@ -6,35 +6,32 @@ export default class PartsRoute extends Route {
     model() {
         return [
             { 
-                partType: bikePartTypes.handlebars,
-                make: "Renthal",
-                material: partMaterials.alloy,
-                // to use bike model
+                type: bikePartTypes.handlebars,
+                imagePath: "/assets/images/bike-line.svg",
                 assignedTo: "GT Karakoram",
                 details: {
+                    make: "Renthal",
+                    material: partMaterials.alloy,
                     barWidth: "700mm",
-                    compatibilities: {
-                        clampDiameter: "31.8mm",
-                    },
+                    clampDiameter: "31.8mm",
                 }
             },
             { 
-                partType: bikePartTypes.frame,
-                make: "Specialized",
-                model: "Rockhopper",
-                year: "2008",
-                material: partMaterials.alloy,
+                type: bikePartTypes.frame,
+                imagePath: undefined,
+                assignedTo: undefined,
                 details: {
-                    paintColor: "white",
-                    compatabilities: {
-                        headTube: {
-                            diameter: "1 1/8",
-                            threaded: false,
-                        }
-                    },
-                }
+                    year: "~2008",
+                    make: "Specialized",
+                    model: "Rockhopper",
+                    material: partMaterials.alloy,
+                    color: "white",
+                    headTube: {
+                        diameter: "1 1/8",
+                        threaded: false,
+                    }
+                },
             }
-
         ]
     }
 }

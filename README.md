@@ -1,7 +1,6 @@
 # too-many-bikes
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+An Ember.js application to help more efficiently manage my bike projects and parts hoarding
 
 ## Prerequisites
 
