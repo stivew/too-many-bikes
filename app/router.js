@@ -12,6 +12,6 @@ Router.map(function () {
   this.route('bikes');
 
   this.route('parts');
-  
+
   this.route('workbench');
 });

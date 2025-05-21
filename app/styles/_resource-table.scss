@@ -1,0 +1,19 @@
+.item-thumbnail-image {
+    width: 150px;
+    height: 150px;
+}
+
+.item-header {
+    padding-top: 10px;
+}
+
+.resource-table {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+}
+
+.resource-table > * {
+    background: black;
+    color: white;
+}
