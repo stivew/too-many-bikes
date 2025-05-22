@@ -7,7 +7,7 @@ export default class PartsRoute extends Route {
     return [
       {
         type: partTypes.handlebars,
-        imagePath: '/assets/images/bike-line.svg',
+        imagePath: '/assets/images/favicon.ico',
         assignedTo: 'GT Karakoram',
         details: {
           make: 'Renthal',

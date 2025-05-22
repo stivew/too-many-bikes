@@ -14,4 +14,6 @@ Router.map(function () {
   this.route('parts');
 
   this.route('workbench');
+
+  this.route('bad-route', { path: '/*path'});
 });

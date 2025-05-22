@@ -7,11 +7,11 @@
 
             <td>
                 <h5 class="item-header">
-                    <b>{{this.getResourceDisplayName item}}</b>
+                    <b>{{this.getDisplayName item}}</b>
                 </h5>
 
                 <ul>
-                   <ResourceDetails
+                   <ResourceTableDetails
                         @item={{item}}
                         @currentRouteName={{this.router.currentRouteName}}
                    />

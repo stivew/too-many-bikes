@@ -12,7 +12,7 @@ export default class ResourceTable extends Component {
     return firstLetter.toUpperCase() + stringRemainder;
   };
 
-  getResourceDisplayName = (resource) => {
+  getDisplayName = (resource) => {
     switch (resource.type) {
       case partTypes.frame:
         return `${resource.details.year} ${resource.details.make} ${resource.details.model}`;
@@ -24,8 +24,8 @@ export default class ResourceTable extends Component {
   };
 
   get defaultImagePath() {
-    return this.tableType === 'part'
-      ? '/assets/images/favicon.ico'
+    return this.router.currentRouteName === 'parts'
+      ? '/assets/images/puzzle-line.svg'
       : '/assets/images/bike-line.svg';
   }
 }
