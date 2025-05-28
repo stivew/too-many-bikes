@@ -1,0 +1,31 @@
+{
+    "parts": [
+      {
+        "id": 1,
+        "type": "handlebars",
+        "imagePath": "/assets/images/favicon.ico",
+        "assignedTo": "GT Karakoram",
+        "details": {
+          "make": "Renthal",
+          "material": "alloy",
+          "barWidth": "700mm",
+          "clampDiameter": "31.8mm"
+        }
+      },
+      {
+        "id": 2,
+        "type": "frame",
+        "details": {
+          "year": "~2008",
+          "make": "Specialized",
+          "model": "Rockhopper",
+          "material": "alloy",
+          "color": "white",
+          "headTube": {
+            "diameter": "1 1/8",
+            "threaded": false
+          }
+        }
+      }
+    ]
+}

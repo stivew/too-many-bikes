@@ -1,0 +1,30 @@
+{   
+    "bikes": [
+      {
+        "id": 1,
+        "components": {
+          "frame": {
+            "year": "2013",
+            "make": "GT",
+            "model": "Karakoram 3.0",
+            "material": "Alloy"
+          },
+          "stem": "Flybikes",
+          "handlebars": "Renthal"
+        }
+      },
+      {
+        "id": 2,
+        "components": {
+          "frame": {
+            "year": "2019",
+            "make": "Trek",
+            "model": "Stache 5",
+            "material": "Alloy"
+          },
+          "stem": "Hussefelt White",
+          "handebars": "Bontrager"
+        }
+      }
+    ]
+}

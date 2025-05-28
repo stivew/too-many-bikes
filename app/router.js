@@ -15,5 +15,5 @@ Router.map(function () {
 
   this.route('workbench');
 
-  this.route('bad-route', { path: '/*path'});
+  this.route('bad-route', { path: '/*path' });
 });
