@@ -1,0 +1,6 @@
+{
+    "derailleurs": [
+        { "id": 1, "speedCompatibility": "1-speed", "make": "Shimano" },
+        { "id": 2, "speedCompatibility": "10-speed", "make": "SRAM" }
+    ]
+}

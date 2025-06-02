@@ -8,6 +8,7 @@ export default class PartsRoute extends Route {
         const result = await Promise.all([
             this.store.findAll('chain'),
             this.store.findAll('crank-arm'),
+            this.store.findAll('derailleur'),
             this.store.findAll('fork'),
             this.store.findAll('front-gear'),
             this.store.findAll('grip'),
@@ -21,7 +22,7 @@ export default class PartsRoute extends Route {
             this.store.findAll('stem'),
             this.store.findAll('tire'),
             this.store.findAll('wheel'),
-        ])
+        ]);
 
         return result.flat();
     }
