@@ -1,0 +1,20 @@
+{
+    "forks": [
+        {
+            "id": 1,
+            "travel": "100mm",
+            "hubCompatibility": "QR skewer",
+            "stanchionDiameter": "32mm",
+            "suspensionType": "air",
+            "make": "RockShox"
+        },
+        {
+            "id": 2,
+            "travel": "100mm",
+            "hubCompatibility": "QR skewer",
+            "stanchionDiameter": "32mm",
+            "suspensionType": "spring",
+            "make": "Marzocchi"
+        }
+    ]
+}

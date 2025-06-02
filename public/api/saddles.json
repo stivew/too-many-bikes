@@ -1,0 +1,6 @@
+{
+    "saddles": [
+        { "id": 1, "color": "black", "make": "WTB" },
+        { "id": 2, "color": "white", "make": "Funn" }
+    ]
+}

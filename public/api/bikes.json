@@ -1,30 +1,82 @@
 {   
-    "bikes": [
-      {
-        "id": 1,
-        "components": {
-          "frame": {
-            "year": "2013",
-            "make": "GT",
-            "model": "Karakoram 3.0",
-            "material": "Alloy"
-          },
-          "stem": "Flybikes",
-          "handlebars": "Renthal"
+  "bikes": [
+    {
+      "id": 1,
+      "parts": [
+        { 
+        "id": 18,  
+        "type": "wheel",
+          "parts": [
+            { "id": 11, "type": "rim", "make": "Giant", "model": "SXC-1" },
+            { "id": 12, "type": "hub", "make": "Giant", "model": "SXC-1", "position": "front", "isDiscCompatible": true },
+            { "id": 13, "type": "tire", "make": "Maxxis", "model": "Aspen Race", "isTubelessCompatible": true }
+          ] 
+        },
+        { 
+        "id": 19,  
+        "type": "wheel",
+          "parts": [
+            { "id": 14, "type": "rim", "make": "Giant", "model": "SXC-1" },
+            { "id": 15, "type": "hub", "make": "Giant", "model": "SXC-1", "position": "rear", "isDiscCompatible": true },
+            { "id": 16, "type": "tire", "make": "Specialized", "model": "Fast Trak", "isTubelessCompatible": true },
+            { "id": 17, "type": "gearRear", "make": "Shimano", "speeds": 1 }
+          ] 
+        },
+        {
+          "id": 1,
+          "type": "fork",
+          "make": "RockShox",
+          "model": "Reba Race"
+        },
+        {
+          "id": 2,
+          "type": "handlebars",
+          "make": "Renthal"
+        },
+        {
+          "id": 3,
+          "type": "grips",
+          "make": "ODI",
+          "pattern": "waffle"
+        },
+        {
+          "id": 4,
+          "type": "stem",
+          "make": "FlyBikes"
+        },
+        {
+          "id": 5,
+          "type": "seatpost",
+          "make": "Salsa"
+        },
+        {
+          "id": 6,
+          "type": "saddle",
+          "make": "WTB"
+        },
+        {
+          "id": 7,
+          "type": "cranks",
+          "make": "Truvativ"
+        },
+        {
+          "id": 8,
+          "type": "chain",
+          "make": "SRAM"
+        },
+        {
+          "id": 9,
+          "type": "pedals",
+          "make": "generic",
+          "material": "plastic"
+        },
+        {
+          "id": 10,
+          "type": "gearFront",
+          "make": "generic",
+          "isNarrowWide": true
         }
-      },
-      {
-        "id": 2,
-        "components": {
-          "frame": {
-            "year": "2019",
-            "make": "Trek",
-            "model": "Stache 5",
-            "material": "Alloy"
-          },
-          "stem": "Hussefelt White",
-          "handebars": "Bontrager"
-        }
-      }
-    ]
+      ]
+    }
+  ]
 }

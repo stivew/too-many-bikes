@@ -1,0 +1,6 @@
+{
+    "chains": [
+        { "id": 1, "speedCompatibility": "8-speed", "make": "SRAM" },
+        { "id": 2, "speedCompatibility": "8-speed", "make": "Shimano" }
+    ]
+}

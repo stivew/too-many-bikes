@@ -1,0 +1,6 @@
+{
+    "hubs": [
+        { "id": 100, "isDiscCompatible": true, "make": "Shimano" },
+        { "id": 200, "isDiscCompatible": true, "make": "Generic" }
+    ]
+}

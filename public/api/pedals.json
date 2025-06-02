@@ -1,0 +1,18 @@
+{
+    "pedals": [
+        {
+            "id": 1,
+            "color": "black",
+            "material": "plastic",
+            "isClipless": false,
+            "make": "Generic"
+        },
+        {
+            "id": 2,
+            "color": "black",
+            "material": "plastic",
+            "isClipless": false,
+            "make": "Generic"
+        }
+    ]
+}
