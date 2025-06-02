@@ -1,0 +1,6 @@
+{
+    "seatposts": [
+        { "id": 1, "diameter": "31.8mm", "make": "Salsa" },
+        { "id": 2, "diameter": "31.8mm", "make": "GT/All-terra" }
+    ]
+}

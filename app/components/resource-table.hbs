@@ -7,14 +7,11 @@
 
             <td>
                 <h5 class="item-header">
-                    <b>{{this.getDisplayName item}}</b>
+                    <b>{{format item.constructor.modelName}}</b>
                 </h5>
 
                 <ul>
-                   <ResourceTableDetails
-                        @item={{item}}
-                        @currentRouteName={{this.router.currentRouteName}}
-                   />
+                    {{item.make}}
                 </ul>
             </td>
         </tbody>

@@ -1,0 +1,6 @@
+{
+    "stems": [
+        { "id": 1, "clampDiameter": "31.8mm", "make": "FlyBikes" },
+        { "id": 2, "clampDiameter": "21.6mm", "make": "Generic" }
+    ]
+}

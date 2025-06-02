@@ -1,0 +1,6 @@
+{
+    "rearGears": [
+        { "id": 1, "speeds": 1, "make": "Shimano" },
+        { "id": 2, "speeds": 8, "make": "Generic" }
+    ]
+}

@@ -4,7 +4,7 @@
         "id": 1,
         "type": "handlebars",
         "imagePath": "/assets/images/favicon.ico",
-        "assignedTo": "GT Karakoram",
+        "parent": "GT Karakoram",
         "details": {
           "make": "Renthal",
           "material": "alloy",

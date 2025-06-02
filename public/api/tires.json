@@ -1,0 +1,18 @@
+{
+    "tires": [
+        {
+            "id": 1,
+            "treadType": "XC",
+            "size": "29 inch",
+            "isTubelessCompatible": true,
+            "make": "Giant"
+        },
+        {
+            "id": 2,
+            "treadType": "XC",
+            "size": "29 inch",
+            "isTubelessCompatible": true,
+            "make": "Giant"
+        }
+    ]
+}
