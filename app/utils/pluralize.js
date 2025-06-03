@@ -1,4 +1,4 @@
-export default function pluralize(string) {
+export default function (string) {
     if (typeof string != 'string') {
         return;
     }

@@ -4,6 +4,7 @@ export default class BikeModel extends Model {
   @attr imagePath;
   @belongsTo('chain', { async: false, inverse: 'bike' }) chain;
   @hasMany('crank-arm', { async: false, inverse: 'bike' }) crankArm;
+  @belongsTo('derailleur', { async: false, inverse: 'bike' }) derailleur;
   @belongsTo('fork', { async: false, inverse: 'bike' }) fork;
   @belongsTo('front-gear', { async: false, inverse: 'bike' }) frontGear;
   @hasMany('grip', { async: false, inverse: 'bike' }) grip;

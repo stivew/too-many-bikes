@@ -6,5 +6,8 @@ export default class ForkModel extends PartModel {
     @attr('string') hubCompatibility;
     @attr('string') stanchionDiameter;
     @attr('string') suspensionType;
+    @attr('string') steererTubeType;
+    @attr('string') steererTubeLength;
+    @attr('boolean') isSteererTubeTapered;
     @belongsTo('bike', { async: false, inverse: 'fork' }) bike;
 }

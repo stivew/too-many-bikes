@@ -1,0 +1,14 @@
+<ul>
+    Make: {{@item.make}}
+</ul>
+<ul>
+    Diameter: {{concat @item.diameter 'mm'}}
+</ul>
+<ul>
+    Dropper: 
+    {{#if @item.isDropper}}
+        Yes
+    {{else}}
+        No
+    {{/if}}
+</ul>

@@ -2,7 +2,7 @@
     "rims": [
         { 
             "id": 1,
-            "wheelSize": "29 inch",
+            "diameter": "29 inch",
             "isBrakingSurface": false,
             "isDoubleWalled": true,
             "isTubelessCompatible": true,
@@ -10,7 +10,7 @@
         },
         { 
             "id": 2,
-            "wheelSize": "29 inch",
+            "diameter": "29 inch",
             "isBrakingSurface": false,
             "isDoubleWalled": true,
             "isTubelessCompatible": true,

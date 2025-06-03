@@ -1,0 +1,35 @@
+<ul>
+    Year: {{@item.year}}
+</ul>
+<ul>
+    Make: {{@item.make}}
+</ul>
+<ul>
+    Model: {{@item.model}}
+</ul>
+<ul>
+    Material: {{format @item.material}}
+</ul>
+<ul>
+    Wheel Size: {{@item.wheelSize}}
+</ul>
+<ul>
+    Compatibility: {{@item.hubCompatibility}}
+</ul>
+<ul>
+    Brake Mounts: {{format @item.brakeMountType}}
+</ul>
+<ul>
+    Headtube: 
+    {{concat
+        (if @item.isHeadTubeTapered 'Tapered' 'Staight')
+        ' ' @item.headTubeDiameter
+        ' ' @item.headTubeType
+    }}
+</ul>
+<ul>
+    Size: {{format @item.markedSize}}
+</ul>
+<ul>
+    Seat Tube Diameter: {{concat @item.seatTubeDiameter 'mm'}}
+</ul>

@@ -2,19 +2,25 @@
     "forks": [
         {
             "id": 1,
-            "travel": "100mm",
+            "travel": "100",
             "hubCompatibility": "QR skewer",
-            "stanchionDiameter": "32mm",
+            "stanchionDiameter": "32",
             "suspensionType": "air",
-            "make": "RockShox"
+            "make": "RockShox",
+            "steererTubeLength": "7",
+            "steererTubeType": "threadless",
+            "isSteererTubeTapered": false
         },
         {
             "id": 2,
-            "travel": "100mm",
+            "travel": "100",
             "hubCompatibility": "QR skewer",
-            "stanchionDiameter": "32mm",
+            "stanchionDiameter": "32",
             "suspensionType": "spring",
-            "make": "Marzocchi"
+            "make": "Marzocchi",
+            "steererTubeLength": "5",
+            "steererTubeType": "threadless",
+            "isSteererTubeTapered": false
         }
     ]
 }

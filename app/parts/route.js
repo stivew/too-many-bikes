@@ -10,6 +10,7 @@ export default class PartsRoute extends Route {
             this.store.findAll('crank-arm'),
             this.store.findAll('derailleur'),
             this.store.findAll('fork'),
+            this.store.findAll('frame'),
             this.store.findAll('front-gear'),
             this.store.findAll('grip'),
             this.store.findAll('handlebar'),

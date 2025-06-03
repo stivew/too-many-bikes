@@ -1,6 +1,6 @@
 {
     "seatposts": [
-        { "id": 1, "diameter": "31.8mm", "make": "Salsa" },
-        { "id": 2, "diameter": "31.8mm", "make": "GT/All-terra" }
+        { "id": 1, "diameter": "31.8", "make": "Salsa", "isDropper": false },
+        { "id": 2, "diameter": "31.8", "make": "GT/All-terra", "isDropper": false }
     ]
 }

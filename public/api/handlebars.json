@@ -2,15 +2,15 @@
     "handlebars": [
         {
             "id": 1,
-            "width": "700mm",
-            "clampDiameter": "31.8mm",
+            "width": "700",
+            "clampDiameter": "31.8",
             "material": "alloy",
             "make": "Bontrager"
         },
         {
             "id": 2,
-            "width": "600mm",
-            "clampDiameter": "21.6mm",
+            "width": "600",
+            "clampDiameter": "21.6",
             "material": "alloy",
             "make": "Renthal"
         }

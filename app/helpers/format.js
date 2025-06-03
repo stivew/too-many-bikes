@@ -1,4 +1,4 @@
-export default function formatForDisplay(key) {
+export default function (key) {
   if (typeof key != 'string') {
     return key.toString();
   }

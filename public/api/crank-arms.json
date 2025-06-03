@@ -1,6 +1,6 @@
 {
     "crankArms": [
-        { "id": 1, "length": "175mm", "isDriveSide": true, "make": "Truvativ" },
-        { "id": 2, "length": "175mm", "isDriveSide": false, "make": "Truvativ" }
+        { "id": 1, "length": "175", "isDriveSide": true, "make": "Truvativ" },
+        { "id": 2, "length": "175", "isDriveSide": false, "make": "Truvativ" }
     ]
 }

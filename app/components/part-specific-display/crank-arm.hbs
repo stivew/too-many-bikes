@@ -1,0 +1,14 @@
+<ul>
+    Length: {{concat @item.length 'mm'}}
+</ul>
+<ul>
+    Side: 
+    {{#if @item.isDriveSide}}
+        Drive
+    {{else}}
+        Non-drive
+    {{/if}}
+</ul>
+<ul>
+    Make: {{@item.make}}
+</ul>

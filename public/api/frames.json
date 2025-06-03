@@ -1,0 +1,34 @@
+{
+    "frames": [
+        {
+            "id": 1,
+            "year": "2013",
+            "make": "GT",
+            "model": "Karakoram 3.0",
+            "material": "alloy",
+            "wheelSize": "29",
+            "hubCompatibility": "147mm QR",
+            "brakeMountType": "disc",
+            "headTubeType": "threadless",
+            "headTubeDiameter": "1-1/8",
+            "isHeadTubeTapered": false,
+            "markedSize": "medium",
+            "seatTubeDiameter": "30.9"
+        },
+        {
+            "id": 2,
+            "year": "2019",
+            "make": "Trek",
+            "model": "Stache 5.0",
+            "material": "alloy",
+            "wheelSize": "29+",
+            "hubCompatibility": "148mm Boost",
+            "brakeMountType": "disc",
+            "headTubeType": "threadless",
+            "headTubeDiameter": "1-1/8",
+            "isHeadTubeTapered": true,
+            "markedSize": "medium",
+            "seatTubeDiameter": "31.6"
+        }
+    ]
+}
