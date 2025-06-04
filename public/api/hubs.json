@@ -1,6 +1,16 @@
 {
     "hubs": [
-        { "id": 100, "isDiscCompatible": true, "make": "Shimano" },
-        { "id": 200, "isDiscCompatible": true, "make": "Generic" }
+        {
+            "id": 100,
+            "bearingType": "sealed",
+            "isDiscCompatible": true,
+            "make": "Shimano"
+        },
+        {
+            "id": 200,
+            "bearingType": "ball",
+            "isDiscCompatible": true,
+            "make": "Generic"
+        }
     ]
 }
