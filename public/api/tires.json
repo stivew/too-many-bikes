@@ -5,14 +5,16 @@
             "treadType": "XC",
             "size": "29 inch",
             "isTubelessCompatible": true,
-            "make": "Giant"
+            "make": "Specialized",
+            "model": "Fast Trak"
         },
         {
             "id": 2,
             "treadType": "XC",
             "size": "29 inch",
             "isTubelessCompatible": true,
-            "make": "Giant"
+            "make": "Specialized",
+            "model": "Fast Trak"
         }
     ]
 }

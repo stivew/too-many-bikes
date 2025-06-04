@@ -1,6 +1,16 @@
 {
     "frontGears": [
-        { "id": 1, "speeds": 1, "isNarrowWide": true, "make": "Generic" },
-        { "id": 2, "speeds": 3, "isNarrowWide": false, "make": "Shimano" }
+        {
+            "id": 1,
+            "speeds": 1,
+            "isNarrowWide": true,
+            "make": "Generic"
+        },
+        {
+            "id": 2,
+            "speeds": 3,
+            "isNarrowWide": false,
+            "make": "Shimano"
+        }
     ]
 }

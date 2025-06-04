@@ -4,5 +4,4 @@ export default class PartModel extends Model {
   @attr make;
   @attr model;
   @attr year;
-  @attr imagePath;
 }

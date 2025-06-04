@@ -7,15 +7,18 @@
 
             <td>
                 <h5 class="item-header">
-                    <b>{{format item.constructor.modelName}}</b>
+                    {{#if (eq item.constructor.modelName "bike")}}
+                        <b>{{concat item.year ' ' item.make ' ' item.model}}</b>
+                    {{else}}
+                        {{#let (fn this.createDisplayName item) as |displayName|}}
+                            <b>{{displayName}}</b>
+                        {{/let}}
+                    {{/if}}
                 </h5>
 
                 <ul>
                     {{#let (get-table-details item.constructor.modelName) as |ContextSpecificComponent|}}
-                        {{log item.attributes}}
-                        <ContextSpecificComponent
-                            @item={{item}}
-                        />
+                        <ContextSpecificComponent @item={{item}}/>
                     {{/let}}
                 </ul>
             </td>

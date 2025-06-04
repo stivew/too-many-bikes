@@ -1,7 +1,9 @@
 import Model, { attr, belongsTo, hasMany } from '@ember-data/model';
 
 export default class BikeModel extends Model {
-  @attr imagePath;
+  @attr('string') year;
+  @attr('string') make;
+  @attr('string') model;
   @belongsTo('chain', { async: false, inverse: 'bike' }) chain;
   @hasMany('crank-arm', { async: false, inverse: 'bike' }) crankArm;
   @belongsTo('derailleur', { async: false, inverse: 'bike' }) derailleur;

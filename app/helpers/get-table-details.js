@@ -1,20 +1,20 @@
 import partTypes from 'too-many-bikes/constants/part-types';
-import ChainComponent from 'too-many-bikes/components/part-specific-display/chain';
-import CrankArmComponent from 'too-many-bikes/components/part-specific-display/crank-arm';
-import DerailleurComponent from 'too-many-bikes/components/part-specific-display/derailleur';
-import ForkComponent from 'too-many-bikes/components/part-specific-display/fork';
-import FrameComponent from 'too-many-bikes/components/part-specific-display/frame';
-import FrontGearComponent from 'too-many-bikes/components/part-specific-display/front-gear';
-import GripComponent from 'too-many-bikes/components/part-specific-display/grip';
-import HandlebarComponent from 'too-many-bikes/components/part-specific-display/handlebar';
-import HubComponent from 'too-many-bikes/components/part-specific-display/hub';
-import PedalComponent from 'too-many-bikes/components/part-specific-display/pedal';
-import RearGearComponent from 'too-many-bikes/components/part-specific-display/rear-gear';
-import RimComponent from 'too-many-bikes/components/part-specific-display/rim';
-import SaddleComponent from 'too-many-bikes/components/part-specific-display/saddle';
-import SeatpostComponent from 'too-many-bikes/components/part-specific-display/seatpost';
-import StemComponent from 'too-many-bikes/components/part-specific-display/stem';
-import TireComponent from 'too-many-bikes/components/part-specific-display/tire';
+import ChainComponent from 'too-many-bikes/components/context-specific-display/chain';
+import CrankArmComponent from 'too-many-bikes/components/context-specific-display/crank-arm';
+import DerailleurComponent from 'too-many-bikes/components/context-specific-display/derailleur';
+import ForkComponent from 'too-many-bikes/components/context-specific-display/fork';
+import FrameComponent from 'too-many-bikes/components/context-specific-display/frame';
+import FrontGearComponent from 'too-many-bikes/components/context-specific-display/front-gear';
+import GripComponent from 'too-many-bikes/components/context-specific-display/grip';
+import HandlebarComponent from 'too-many-bikes/components/context-specific-display/handlebar';
+import HubComponent from 'too-many-bikes/components/context-specific-display/hub';
+import PedalComponent from 'too-many-bikes/components/context-specific-display/pedal';
+import RearGearComponent from 'too-many-bikes/components/context-specific-display/rear-gear';
+import RimComponent from 'too-many-bikes/components/context-specific-display/rim';
+import SaddleComponent from 'too-many-bikes/components/context-specific-display/saddle';
+import SeatpostComponent from 'too-many-bikes/components/context-specific-display/seatpost';
+import StemComponent from 'too-many-bikes/components/context-specific-display/stem';
+import TireComponent from 'too-many-bikes/components/context-specific-display/tire';
 
 export default function (modelType) {
     switch (modelType) {
