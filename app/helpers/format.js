@@ -1,6 +1,6 @@
 export default function (key) {
   if (typeof key != 'string') {
-    return;
+    return key?.toString();
   }
 
   let words;

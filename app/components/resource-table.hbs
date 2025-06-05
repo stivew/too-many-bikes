@@ -7,13 +7,7 @@
 
             <td>
                 <h5 class="item-header">
-                    {{#if (eq item.constructor.modelName "bike")}}
-                        <b>{{concat item.year ' ' item.make ' ' item.model}}</b>
-                    {{else}}
-                        {{#let (fn this.createDisplayName item) as |displayName|}}
-                            <b>{{displayName}}</b>
-                        {{/let}}
-                    {{/if}}
+                    <b>{{this.createDisplayName item}}</b>
                 </h5>
 
                 <ul>
